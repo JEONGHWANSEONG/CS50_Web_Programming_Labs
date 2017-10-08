@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<meta charset='utf-8'/>
+<head>
+	<meta charset='utf-8'/>
+	<title>Document</title>
+	<style type="text/css">
+		#header{
+			width:960px;
+			height:100px;
+			border:solid 1px;
+		}
+		#content{
+			width:960px;
+
+			border:solid 1px;
+			margin-top:5px;
+			position:relative;
+		}
+		#main{
+			width:750px;
+
+			border:solid 1px;
+			float:left;
+		}
+		#side{
+			width:200px;
+			height:500px;
+			border:solid 1px;
+			float:right;
+		}
+		#footer{
+			width:960px;
+			height:80px;
+			border:solid 1px;
+			margin-top:5px;
+			clear: both;
+		}
+		#readme {
+			width: 100%;
+			border: solid 1px;
+			margin-top: 10px;
+			padding: 7px 0px;
+		}
+		#knowre {
+			padding: 20px;
+		}
+		ul.stat{
+			list-style-type: none;
+			margin: 0;
+			padding: 10px;
+			overflow: hidden;
+			font-size: 20px;
+			border: solid 1px;
+			border-bottom-width: 10px;
+			border-bottom-color: #F1E05A;
+
+		}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 10px;
+			overflow: hidden;
+
+		}
+		li{
+			float: left;
+			margin-left: 70px;
+			font-size: 17px;
+		}
+		li#first{
+			margin-left: 45px;
+		}
+		table{
+			border: 1px solid black;
+			border-collapse: collapse;
+			width: 100%;
+		}
+		tr:hover {
+			background-color: #f5f5f5;
+		}
+		#right {
+			text-align:right;
+		}
+		td{
+			border-bottom: 1px solid black;
+			border-top: 1px solid black;
+			padding: 7px;
+		}
+		td.colored-row{
+			background-color: #E6F1F6;
+		}
+		td.grey{
+			background-color: #F8F8F8
+		}
+		.blue-text{
+			color: blue;
+		}
+		.octicon{
+			width: 20px;
+			height: 20px;
+			position: relative;
+			top: 3px;
+			right: 4px;
+
+		}
+		h3 {
+			color: #959595;
+		}
+		.foot {
+			font-size: 10px;
+			margin-left: 10px;
+			margin-top: 20px;
+			color: blue;
+		}
+		.float-r{
+			float:right;
+		}
+		#float-mid{
+			position:relative;
+			left: 110px;
+		}
+	</style>
+</head>
+<body>
+<header id="header" class="">
+	<div id="intro" class="">
+
+	</div>
+	<div id="banner" class="">
+
+	</div>
+	<div id="title" class="">
+
+	</div>
+</header>
+
+<div id="content" class="">
+	<div id="main" class="">
+		<div id="left">
+			<h3>KnowRe web development curriculum for noobs</h3>
+			<div id="status">
+				<ul class="stat">
+					<li id="first"><img class="octicon" src="svg/history.svg"><strong>26</strong> commits</li>
+					<li><img class="octicon" src="svg/git-branch.svg"><strong>2</strong> branches</li>
+					<li><img class="octicon" src="svg/tag.svg"><strong>0</strong> releases</li>
+					<li><img class="octicon" src="svg/organization.svg"><strong>1</strong> contributer</li>
+				</ul>
+			</div>
+			<div id="branch">
+				<h4><img class="octicon" src="svg/git-compare.svg">branch 2016 <span class="blue-text">WebDevCurriculum</span> / +<img class="octicon" class="float-r" src="svg/list-unordered.svg"></h4>
+			</div>
+			<div id="branch table">
+				<table>
+					<tr>
+						<td class="grey">This is 5 branches ahead of master.</td>
+						<td class="grey"></td>
+						<td class="grey" id="right"><img class="octicon" src="svg/git-pull-request.svg">Pull request <img class="octicon" src="svg/diff.svg">compare</td>
+					</tr>
+					<tr>
+						<td class="colored-row">...</td>
+						<td class="colored-row"></td>
+						<td class="colored-row"></td>
+					</tr>
+					<tr>
+						<td class="grey"><img class="octicon" src="svg/graph.svg"><strong>Kivol</strong> authored 19 hours ago</td>
+						<td class="grey"></td>
+						<td class="grey" id="right">latest commit 5ead7a7a36<img class="octicon" src="svg/clippy.svg"></td>
+					</tr>
+					<tr>
+						<td><img class="octicon" src="svg/file-directory.svg">Part 0. git/<span class="blue-text">Quest 0. Hello, git</span></td>
+						<td>Quest 0 - Added checklist</td>
+						<td id="right">19 hours ago</td>
+					</tr>
+					<tr>
+						<td><img class="octicon" src="svg/file-directory.svg"><span class="blue-text">old</span></td>
+						<td>New curriculum 2016 - started</td>
+						<td id="right">5 days ago</td>
+					</tr>
+					<tr>
+						<td><img class="octicon" src="svg/file.svg"><span class="blue-text">LICENSE</span></td>
+						<td>New curriculum 2016 - started</td>
+						<td id="right">5 days ago</td>
+					</tr>
+					<tr>
+						<td><img class="octicon" src="svg/file.svg"><span class="blue-text">README.md</span></td>
+						<td>...</td>
+						<td id="right">19 hour ago</td>
+					</tr>
+				</table>
+			</div>
+			<div id="readme"><img class="octicon" src="svg/file.svg"><strong>README.md</strong></div>
+			<div id="knowre">
+				<h2>KnowRe web development curriculum<br>2016</h2>
+			</div>
+
+
+			</div>
+		</div>
+	</div>
+	<div id="side" class="">
+	</div>
+</div>
+
+<footer id="footer" class="">
+	<ul>
+		<li class="foot">2015 Github,Inc.</li>
+		<li class="foot">Terms</li>
+		<li class="foot">Privacy</li>
+		<li class="foot">Security</li>
+		<li class="foot">Contact</li>
+		<li class="foot">Help</li>
+		<li id="float-mid"><img class="octicon" src="svg/mark-github.svg"></li>
+		<div class="float-r">
+		  <li class="foot">Status</li>
+		  <li class="foot">API</li>
+		  <li class="foot">Training</li>
+		  <li class="foot">Shop</li>
+		  <li class="foot">Blog</li>
+		  <li class="foot">About</li>
+		  <li class="foot">Pricing</li>
+		</div>
+	</ul>
+</footer>
+
+</body>
+</html>
